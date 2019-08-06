@@ -33,5 +33,5 @@
 
                 res_model="wiz_hospital.charge"
                 view_mode="form"
-                target="new"/>  
+                target="new"/>
 </odoo>
