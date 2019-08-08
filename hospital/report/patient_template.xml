@@ -7,15 +7,38 @@
                 <t t-call="web.external_layout">
                     <div class="page">
                         <h2>Patient Report</h2>
-                        <p>Patient's name is : <span t-field="o.name"/> </p>
-                        <p>Patient Age : <span t-field="o.age"/> </p>
-                        <p>Gender : <span t-field="o.gender"/> </p>
-                        <p>Status : <span t-field="o.status"/> </p>
-                        <p>Mobile Number : <span t-field="o.number"/> </p>
-                        <p>City : <span t-field="o.city"/> </p>
-                        <p>Hospital Name : <span t-field="o.hospital_id"/> </p>
-                        <p>Ward Name : <span t-field="o.ward_ids"/> </p>
-                        <p>Payment : <span t-field="o.payment_ids"/> </p>
+                        <p>Patient's name is :
+                            <span t-field="o.name"/>
+                        </p>
+                        <p>Patient Age :
+                            <span t-field="o.age"/>
+                        </p>
+                        <p>Gender :
+                            <span t-field="o.gender"/>
+                        </p>
+                        <p>Status :
+                            <span t-field="o.status"/>
+                        </p>
+                        <p>Mobile Number :
+                            <span t-field="o.number"/>
+                        </p>
+                        <p>City :
+                            <span t-field="o.city"/>
+                        </p>
+                        <p>Hospital Name :
+                            <span t-field="o.hospital_id"/>
+                        </p>
+                        <p>Ward Name :
+                            <span t-field="o.ward_ids"/>
+                        </p>
+                        <p>Payment :
+                            <span t-field="o.payment_ids"/>
+                        </p>
+                        <p>Image :
+                            <span t-field="o.image"
+                                  t-field-options='{"widget": "image","style":"background-color: #fff;margin-left: auto;margin-right: auto;width: auto;height: 100px;margin-bottom: 8px;"}'/>
+                        </p>
+
                     </div>
                 </t>
             </t>
