@@ -4,7 +4,7 @@
                 id="account_patient"
                 model="hospital.patient"
                 string="Patient Report"
-                report_type="qweb-pdf"
+                report_type="qweb-html"
                 name="hospital.report_patient"
                 file="hospital.report_patient"
         />
