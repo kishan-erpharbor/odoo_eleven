@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="report_patient">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.external_layout">
+                    <div class="page">
+                        <h2>Patient Report</h2>
+                        <p>Patient's name is :
+                            <span t-field="o.name"/>
+                        </p>
+                        <p>Patient Age : <span t-field="o.age"/> </p>
+                        <p>Gender : <span t-field="o.gender"/> </p>
+                        <p>Status : <span t-field="o.status"/> </p>
+                        <p>Hospital Name : <span t-field="o.hospital_id"/> </p>
+                        <p>Ward Name : <span t-field="o.ward_ids"/> </p>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>

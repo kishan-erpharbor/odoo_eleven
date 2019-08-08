@@ -19,6 +19,10 @@
         'views/demo1_view.xml',
         'views/demo2_view.xml',
         'views/user_view.xml',
+        'report/doctor_template.xml',
+        'report/patient_template.xml',
+        'report/doctor_report.xml',
+        'report/patient_report.xml',
 
     ]
 
