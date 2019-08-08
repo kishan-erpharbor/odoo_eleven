@@ -25,14 +25,14 @@ class Patient(models.Model):
     total = fields.Integer()
     color = fields.Integer("Color")
 
-    @api.constrains('age')
-    def _check_something(self):
-        for patient in self:
-            if patient.age > 21:
-                raise ValidationError("Your record is too old: %s", patient.age)
-
-    _sql_constraints = [
-        ('number',
-         'UNIQUE(number)',
-         "The Name must be unique"),
-    ]
+    # @api.constrains('age')
+    # def _check_something(self):
+    #     for patient in self:
+    #         if patient.age > 21:
+    #             raise ValidationError("Your record is too old: %s", patient.age)
+    #
+    # _sql_constraints = [
+    #     ('number',
+    #      'UNIQUE(number)',
+    #      "The Name must be unique"),
+    # ]

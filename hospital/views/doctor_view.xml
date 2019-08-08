@@ -31,7 +31,7 @@
             <form>
 
                 <sheet>
-                    <group col="6">
+                    <group>
                         <field name="name"/>
                         <field name="gender"/>
                         <field name="age"/>
@@ -39,12 +39,9 @@
                         <field name="speciality"/>
                         <field name="patient_id"/>
                         <field name="hospital_id"/>
-
                         <field name="d_id"/>
                         <field name="file"/>
                         <field name="image" widget="image" class="oe_avatar" option="{'size':[50,50]'}"/>
-
-
                         <lable>Select any Two</lable>
                         <field name="mbbs" attrs="{'invisible':[('md','=',True),('ms','=',True)]}"/>
                         <field name="md" attrs="{'invisible':[('ms','=',True),('mbbs','=',True)]}"/>

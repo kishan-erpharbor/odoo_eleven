@@ -11,8 +11,11 @@
                         <p>Patient Age : <span t-field="o.age"/> </p>
                         <p>Gender : <span t-field="o.gender"/> </p>
                         <p>Status : <span t-field="o.status"/> </p>
+                        <p>Mobile Number : <span t-field="o.number"/> </p>
+                        <p>City : <span t-field="o.city"/> </p>
                         <p>Hospital Name : <span t-field="o.hospital_id"/> </p>
                         <p>Ward Name : <span t-field="o.ward_ids"/> </p>
+                        <p>Payment : <span t-field="o.payment_ids"/> </p>
                     </div>
                 </t>
             </t>

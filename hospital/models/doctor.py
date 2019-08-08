@@ -47,14 +47,15 @@ class Doctor(models.Model):
     #     print("\n", fields.datetime.now())
     #     print("\n\nCheck Out...")
 
-    @api.constrains('age')
-    def _check_something(self):
-        for doct in self:
-            if doct.age > 21:
-                raise ValidationError("Your record is too old: %s", doct.age)
 
-    _sql_constraints = [
-        ('city',
-         'UNIQUE(city)',
-         "The city title must be unique"),
-    ]
+    # @api.constrains('age')
+    # def _check_something(self):
+    #     for doct in self:
+    #         if doct.age > 21:
+    #             raise ValidationError("Your record is too old: %s", doct.age)
+    #
+    # _sql_constraints = [
+    #     ('city',
+    #      'UNIQUE(city)',
+    #      "The city title must be unique"),
+    # ]

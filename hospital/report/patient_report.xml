@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <report
-            id="account_doctor"
+            id="account_patient"
             model="hospital.patient"
             string="Patient Report"
             report_type="qweb-pdf"

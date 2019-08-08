@@ -23,6 +23,8 @@
         'report/patient_template.xml',
         'report/doctor_report.xml',
         'report/patient_report.xml',
+        'report/payment_template.xml',
+        'report/payment_report.xml',
 
     ]
 
