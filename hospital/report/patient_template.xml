@@ -28,15 +28,27 @@
                         <p>Hospital Name :
                             <span t-field="o.hospital_id"/>
                         </p>
-                        <p>Ward Name :
-                            <span t-field="o.ward_ids"/>
-                        </p>
-                        <p>Payment :
-                            <span t-field="o.payment_ids"/>
-                        </p>
                         <p>Image :
                             <span t-field="o.image"
                                   t-field-options='{"widget": "image","style":"background-color: #fff;margin-left: auto;margin-right: auto;width: auto;height: 100px;margin-bottom: 8px;"}'/>
+                        </p>
+
+                        <p>Many2many Relationship</p>
+                        <p>
+                            <tr t-foreach="o.payment_ids" t-as="line">
+                                <td>
+                                    <p>
+                                        <span t-field="line.payment"/>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr t-foreach="o.ward_ids" t-as="line">
+                                <td>
+                                    <p>
+                                        <span t-field="line.name"/>
+                                    </p>
+                                </td>
+                            </tr>
                         </p>
 
                     </div>

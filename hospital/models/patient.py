@@ -17,10 +17,10 @@ class Patient(models.Model):
     age = fields.Integer("Age")
     address = fields.Text("Adderss")
     number = fields.Integer("Mobile No")
+
     hospital_id = fields.Many2one('hospital.hospital', 'hospital')
     ward_ids = fields.Many2many('hospital.ward', 'patient_ward_rel', 'patient_id',
                                 'ward_id', string='Ward')
-    patient_id = fields.Many2one('hospital.patient', 'patient')
     payment_ids = fields.Many2many('hospital.payment', 'patient_pay_rel', 'patient_id', 'pay_id', string='Payment')
     total = fields.Integer()
     color = fields.Integer("Color")
