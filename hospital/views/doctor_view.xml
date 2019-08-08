@@ -132,7 +132,7 @@
     <record id="action_doctor" model="ir.actions.act_window">
         <field name="name">Doctor</field>
         <field name="res_model">hospital.doctor</field>
-        <field name="view_mode">kanban,tree,form</field>
+        <field name="view_mode">tree,form,kanban</field>
         <field name="view_type">form</field>
     </record>
 
