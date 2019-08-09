@@ -23,6 +23,7 @@ class Shift(models.Model):
                               ('cancel', 'Cancel')], 'State', default='draft')
     shift = fields.Selection([('f', 'First'), ('s', 'Second'), ('t', 'Third')], 'Shift Shedule')
 
+
     @api.multi
     def copy(self, default=None):
         '''self will always have single recordset'''

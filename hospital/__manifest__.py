@@ -7,7 +7,7 @@
     'depends': ['base'],
     'data': [
         'wizard/charge_wiz_view.xml',
-        'wizard/patient_report_wizard.xml',
+        'wizard/shift_report_wizard.xml',
         'views/hospital_view.xml',
         'views/doctor_view.xml',
         'views/patient_view.xml',
@@ -26,6 +26,8 @@
         'report/patient_report.xml',
         'report/payment_template.xml',
         'report/payment_report.xml',
+        'report/shift_template.xml',
+        'report/shift_report.xml',
 
     ]
 

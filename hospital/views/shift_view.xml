@@ -24,6 +24,7 @@
         <field name="arch" type="xml">
             <form>
                 <header>
+                    <button name="%(hospital.action_shift_report_wizard)d" string="Get Report" type="action" class="oe_highlight"/>
                     <button name="action_create" string="Create" type="object"/>
                     <button name="draft_shift" string="Draft" type="object"/>
                     <button name="start_shift" string="Start" type="object"
