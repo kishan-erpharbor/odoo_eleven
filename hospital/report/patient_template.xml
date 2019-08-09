@@ -63,9 +63,8 @@
                                 <th>Ward Name</th>
                                 <td>
                                     <span t-field="line.name"/>
-                                    </td>
+                                </td>
                             </tr>
-
                         </table>
                     </div>
                 </t>

@@ -25,6 +25,10 @@
         <field name="arch" type="xml">
             <form>
                 <sheet>
+                    <header>
+                        <button name="%(hospital.action_wizard_patient_report)d" string="Check Report" type="object" default_focus="1"
+                                class="oe_highlight"/>
+                    </header>
                     <group col="4">
                         <field name="name"/>
                         <field name="gender" widget="radio"/>
@@ -86,7 +90,7 @@
             <graph string="Patient">
                 <!--                <field name="name"/>-->
                 <field name="city"/>
-<!--                <field name="patient_id" type="measure"/>-->
+                <!--                <field name="patient_id" type="measure"/>-->
             </graph>
         </field>
     </record>
@@ -99,7 +103,7 @@
             <calendar color="status" date_start="admit_date" date_stop="discharge_date" string="Start">
                 <field name="name"/>
                 <field name="status"/>
-<!--                <field name="patient_id"/>-->
+                <!--                <field name="patient_id"/>-->
             </calendar>
         </field>
     </record>
@@ -168,7 +172,6 @@
             </kanban>
         </field>
     </record>
-
 
     <record id="action_patient" model="ir.actions.act_window">
         <field name="name">Patient</field>

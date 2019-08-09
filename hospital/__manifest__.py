@@ -7,6 +7,7 @@
     'depends': ['base'],
     'data': [
         'wizard/charge_wiz_view.xml',
+        'wizard/patient_report_wizard.xml',
         'views/hospital_view.xml',
         'views/doctor_view.xml',
         'views/patient_view.xml',
