@@ -9,7 +9,7 @@
                 <group>
                     <group>
                         <field name="start_date"/>
-                    </group>
+x                    </group>
                     <group>
                         <field name="end_date"/>
                     </group>

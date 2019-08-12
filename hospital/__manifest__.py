@@ -28,6 +28,7 @@
         'report/payment_report.xml',
         'report/shift_template.xml',
         'report/shift_report.xml',
+        'report/shift_inherit_template.xml',
 
     ]
 

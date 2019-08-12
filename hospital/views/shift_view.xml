@@ -24,7 +24,8 @@
         <field name="arch" type="xml">
             <form>
                 <header>
-                    <button name="%(hospital.action_shift_report_wizard)d" string="Get Report" type="action" class="oe_highlight"/>
+                    <button name="%(hospital.action_shift_report_wizard)d" string="Get Report" type="action"
+                            class="oe_highlight"/>
                     <button name="action_create" string="Create" type="object"/>
                     <button name="draft_shift" string="Draft" type="object"/>
                     <button name="start_shift" string="Start" type="object"
@@ -35,6 +36,8 @@
                     <field name="state" widget="statusbar" statusbar_visible="draft,start,end"/>
                 </header>
                 <sheet>
+                    <button class="oe_inline oe_state_button" type="action" string="Opportunity" icon="fa-star"
+                            widget="statinfo"/>
                     <group col="4">
                         <field name="name"/>
                         <field name="hospital_id"/>

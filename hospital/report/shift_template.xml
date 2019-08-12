@@ -17,12 +17,14 @@
                             <p>Name is :
                                 <span t-esc="line['name']"/>
                             </p>
+                            <p>Start Date :
+                                <span t-esc="line['start_date']"/>
+                            </p>
+                            <p>End Date :
+                                <span t-esc="line['end_date']"/>
+                            </p>
                         </td>
-                        <!--                            <td>-->
-                        <!--                                <p> Birthday is :<span t-esc="line['birthday']"/></p>-->
-                        <!--                            </td>-->
                     </tr>
-
                 </div>
             </t>
         </t>
