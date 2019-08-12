@@ -36,7 +36,7 @@
                     <field name="state" widget="statusbar" statusbar_visible="draft,start,end"/>
                 </header>
                 <sheet>
-                    <button class="oe_inline oe_state_button" type="action" string="Opportunity" icon="fa-star"
+                    <button class="oe_state_button" type="action" string="Opportunity" align="right" icon="fa-star"
                             widget="statinfo"/>
                     <group col="4">
                         <field name="name"/>
