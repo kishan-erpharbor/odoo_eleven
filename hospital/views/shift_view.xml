@@ -82,18 +82,6 @@
         </field>
     </record>
 
-    <!--    &lt;!&ndash;Gantt View&ndash;&gt;-->
-    <!--    <record id="view_shift_gantt" model="ir.ui.view">-->
-    <!--        <field name="name">shift.gantt</field>-->
-    <!--        <field name="model">shift.shift</field>-->
-    <!--        <field name="arch" type="xml">-->
-    <!--            <gantt string="Gantt View" date_start="start_date" date_delay="end_date"-->
-    <!--                   default_group_by="patient_id">-->
-    <!--            </gantt>-->
-    <!--        </field>-->
-    <!--    </record>-->
-
-
     <record id="action_shift" model="ir.actions.act_window">
         <field name="name">Shift</field>
         <field name="res_model">shift.shift</field>
